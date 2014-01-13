@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/svenanders/SarDatabases.git",
-                "reference": "759749f5e4847c4a38afbd13f0c3add73899321e"
+                "reference": "ff3b8c7e7f0fce0adb31d2a04c9a2843fee86db8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/svenanders/SarDatabases/zipball/759749f5e4847c4a38afbd13f0c3add73899321e",
-                "reference": "759749f5e4847c4a38afbd13f0c3add73899321e",
+                "url": "https://api.github.com/repos/svenanders/SarDatabases/zipball/ff3b8c7e7f0fce0adb31d2a04c9a2843fee86db8",
+                "reference": "ff3b8c7e7f0fce0adb31d2a04c9a2843fee86db8",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,7 @@
                 }
             ],
             "description": "Vanilla Database module for Zend Framework 2",
-            "time": "2014-01-10 08:24:19"
+            "time": "2014-01-11 14:43:22"
         },
         {
             "name": "zendframework/zendframework",
