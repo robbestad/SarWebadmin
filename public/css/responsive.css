@@ -1,0 +1,190 @@
+/* iPads (portrait and landscape) ----------- */
+/*
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+*//* Styles */
+#front-56 {margin: 10px auto;
+
+width:980px;
+}
+#front-56 .articles{
+	margin:0 -10px;
+
+}
+
+#front-56 .article-content h3{font-family: 'Lato', sans-serif; font-weight: 900;}
+#front-56 .article-content{
+	margin: 0 10px 20px 10px;
+	border-top:#eeeeee solid 2px;
+	padding-top:10px;
+}
+/*
+@media (max-width: 991px) {
+	#front-56, #drfront {
+		font: 14px Arial,Helvetica,sans-serif;
+		width:100%!important;
+		margin:0;
+	}
+
+
+}
+*/
+@media (max-width: 1024px) {
+
+	#front-56, #drfront {
+		margin: 10px auto;
+		font: 11px Arial,Helvetica,sans-serif;
+		width:768px;
+
+	}
+	#front-56 .article-content{margin: 0 10px 10px 10px;}
+
+
+}
+
+@media (max-width: 767px) {
+	body{
+		font-size: 18px;
+	}
+    #front-56{
+    	font-size: 33%;
+		margin: 10px auto;
+		width:100%;
+    }
+    #front-56 .article-content{margin: 0 5px 5px 5px;}
+    p{display: none;}
+    #front-56 .articles{
+		margin:0px;
+	}
+
+
+	#front-56 .article-extract-full{width:100%}
+	#front-56 .article-extract-two-thirds{width:66.66%}
+	#front-56 .article-extract-half{width:50%}
+	#front-56 .article-extract-one-third{width:33.33333%}
+	#front-56 .article-extract-one-fourth{width:25%}
+	#front-56 .df-img-container.left{}
+	#front-56 .df-img-container.right{}
+	#front-56 .article-extract.img-brd-0 .df-img-container-inner{padding:0}
+
+	#front-56 .df-container-skin-mobile-list .article-extract-one-fourth{
+		width:100%;
+		border-top:0;
+	}
+	#front-56 .df-container-skin-mobile-list .article-extract-one-fourth p{
+		display: inline-block;
+	}
+
+	#front-56 .df-container-skin-mobile-list .article-extract-one-fourth .df-img-container{
+		width:30%;
+		float:left;
+	}
+	/*
+	#front-56 .df-container-skin-mobile-list .article-extract-one-fourth:nth-child(even) .df-img-container{
+		float: right;
+	}
+	*/
+	#front-56 .df-container-skin-mobile-list .article-extract-one-fourth h3,
+	#front-56 .df-container-skin-mobile-list .article-extract-one-fourth p{
+		width:68%;
+		float:right;
+		margin:0 1%;
+	}
+
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+	#front-56 .article-extract-full 		img,
+	#front-56 .article-extract-half 		img,
+	#front-56 .article-extract-one-third 	img,
+	#front-56 .article-extract-one-fourth 	img,
+	#front-56 .article-extract-two-thirds 	img,
+	#front-56 .article-extract-full img{
+
+	width:100%!important;
+}
+#front-56 .article-extract {
+	margin: 0;
+}
+
+#front-56 .bg-black {
+
+}
+#front-56 .bg-black .article-content {
+	background: #000;
+	color: #fff;
+	border-top: #000;
+	padding:10px;
+
+}
+#front-56 .bg-black .article-content .df-img-container{
+	margin: -10px -10px 0;
+
+}
+#front-56 .bg-black .article-content a{
+	color: #bf1222;
+
+}
+
+/**/
+#front-56 .ad_knapp{
+	height:95px;
+	overflow:hidden;
+	margin:0 0 10px 6px;
+}
+
+
+
+
+
+
+
+
+.maincontainer{margin-top:58px;}
+.headroom{z-index:9999; background:#bf1222; color:#FFF;}
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .1s ease-in-out;}
+.headroom.slideUp {top: -100px;}
+.headroom.slideDown {top: 0;}
+.headroom .navbar {
+border-radius: 0px;
+}
+.headroom--pinned .navbar{box-shadow: 0px 0px 5px #000;}
+
+#menusol {
+background: url(/img/static/sol-logo-tablet.png);
+background-size: 66px 48px;
+border-right: 2px solid #8e0000;
+height: 48px;
+width: 66px;
+text-indent: -2000px;
+float: left;
+}
+footer {
+
+	background:#bf1222;
+	color:#FFFFFF;
+	padding:10px;font-size: 0.8em;
+}
+footer a{
+	color:#FFFFFF;
+}
+footer ul li ul li, #SOLfooterLinks ul.about li.first {
+border-left: 1px solid #d6d4c9;
+padding: 0 7px;
+}
+footer ul, ul li {
+list-style-type: none;
+padding: 0 7px;
+}
+footer ul{
+	clear:both;
+	margin:0;
+	padding:0;
+}
+footer li{
+	float:left;
+}
