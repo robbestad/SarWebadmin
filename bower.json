@@ -1,0 +1,29 @@
+{
+  "name": "sar webadmin",
+  "version": "0.0.1",
+  "authors": [
+    "Sven Anders Robbestad <robbestad@gmail.com>"
+  ],
+  "description": "",
+  "main": "README.md",
+  "keywords": [
+    "ci"
+  ],
+  "license": "CC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/vendor"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "latest",
+    "modernizr": "latest",
+    "moment": "latest",
+    "angular": "~1.2",
+    "angular-route": "~1.2"
+  }
+}
